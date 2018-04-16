@@ -9,12 +9,12 @@ public class art {
      //求Java课和sql课的分数之差
         int score;
         score=Java-SQL;
-        System.out.println(score);
+        System.out.println("两门课程的分数之差:"+score+"分");
 
      //3门课程的平均分
-     float avg;
+     int avg;
         avg=(STB+Java+SQL)/3;
-       System.out.println(avg);
+       System.out.println("三门课程的平均分:"+avg+"分");
 
      }
 }
