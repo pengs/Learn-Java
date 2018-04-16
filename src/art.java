@@ -12,9 +12,9 @@ public class art {
         System.out.println(score);
 
      //3门课程的平均分
-     float average_score;
-       average_score=(STB+Java+SQL)/3;
-       System.out.println(average_score);
+     float avg;
+        avg=(STB+Java+SQL)/3;
+       System.out.println(avg);
 
      }
 }
