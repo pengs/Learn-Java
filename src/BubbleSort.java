@@ -10,7 +10,7 @@ public class BubbleSort{
 
 
     private static void bubbleSort(int[] sortNum){
-        int temp = 0;
+        int temp ;//定义一个中介变量，进行数据交换
         for (int i = 0; i < sortNum.length-1; i++) {         //第一个for循环控制排序要走多少趟，最多做n-1趟排序
             for (int j = sortNum.length-1; j > i; j--) {     //第2个for循环控制每趟比较多少次
                 if(sortNum[j-1]>sortNum[j]){                 //大的往后面排
@@ -21,6 +21,8 @@ public class BubbleSort{
                 }
             }
         }
-}
+
+    }
+
 
 
